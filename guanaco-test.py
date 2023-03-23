@@ -8,7 +8,7 @@ model = LlamaForCausalLM.from_pretrained(
     load_in_8bit=True,
     device_map="auto",
 )
-model = PeftModel.from_pretrained(model, "guanaco/guanaco-lora-13b")
+model = PeftModel.from_pretrained(model, "plncmm/guanaco-lora-13b")
 
 def generate_prompt(instruction, input=None):
     if input:

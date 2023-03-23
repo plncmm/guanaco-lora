@@ -41,7 +41,7 @@ tokenizer.pad_token_id = 0  # unk. we want this to be different from the eos tok
 data = load_dataset("json", data_files="guanaco-52k-train.json")
 
 def generate_prompt(data_point):
-    # desculpe o desastre de formatação, preciso ser rápido
+    
     if data_point["input"]:
         return f"""Abajo está una instrucción que describe una tarea, en conjunto con una entrada que entrega mas contexto. Escribe una respuesta que complete adecuadamente lo pedido.
 ### Instrucción:
@@ -58,8 +58,7 @@ def generate_prompt(data_point):
 {data_point["output"]}"""
       
 def tokenize(prompt):
-    # there's probably a way to do this with the tokenizer settings
-    # but again, gotta move fast
+    
     result = tokenizer(
         prompt,
         truncation=True,
