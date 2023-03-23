@@ -54,8 +54,8 @@ def evaluate(instruction, input=None):
 if __name__ == "__main__":
 
     evaluate("Instrucción: nombre las capitales regionales de Chile")
-    evaluate("Instrucci  n: dime sobre guanacos")
-    evaluate("Instrucci  n: dime sobre el presidente de mexico en 2019")
-    evaluate("Instrucci  n: dime sobre el rey de francia en 2019")
-    evaluate("Instrucci  n: traduce la frase 'hola mundo' a inglés")
-    evaluate("Instrucci  n: escribe un programa de Python que imprima los primeros 10 números de Fibonacci")
+    evaluate("Instrucción: dime sobre guanacos")
+    evaluate("Instrucción: dime sobre el presidente de mexico en 2019")
+    evaluate("Instrucción: dime sobre el rey de francia en 2019")
+    evaluate("Instrucción: traduce la frase 'hola mundo' a inglés")
+    evaluate("Instrucción: escribe un programa de Python que imprima los primeros 10 números de Fibonacci")
