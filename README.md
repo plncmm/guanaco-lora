@@ -25,19 +25,19 @@ You can test the model using the code available [here](guanaco-test.py).
 Guanaco
 ```
 Instrucción: nombre las capitales regionales de Chile
-Respuesta: Las capitales regionales de Chile son Arica, Iquique, Antofagasta, Calama, Copiapó, Vallenar, La Serena, Coquimbo, Valparaíso, Viña del Mar, Concepción, Temuco, Puerto Montt, Punta Arenas y Puerto Natales.
+Respuesta: Las capitales regionales de Chile son Antofagasta, Arica, Iquique, Copiapó, La Serena, Coquimbo, Valparaíso, Viña del Mar, Concepción, Temuco, Puerto Montt, Punta Arenas y Puerto Natales.
 ```
 
 Guanaco
 ```
 Instrucción: dime sobre guanacos
-Respuesta: Los guanacos son mamíferos sudamericanos de la familia de los cérvidos. Son herbívoros y se alimentan de hierba, hojas y frutas. Viven en grupos de hasta 20 individuos y tienen una vida útil de 15 a 20 años. Los guanacos tienen un pelaje marrón oscuro y una larga cola blanca. Son conocidos por su llamada distintiva, que suena como un silbido.
+Los guanacos son mamíferos sudamericanos de la familia de los camélidos. Son herbívoros y se alimentan de hierba, hojas y frutas. Viven en grupos de hasta 30 individuos y tienen una vida útil de hasta 20 años. Los guanacos tienen un pelaje marrón oscuro con rayas blancas en la cara y las patas, y una cola blanca con una mancha negra en la punta.
 ```
 
 Guanaco
 ```
 Instrucción: dime sobre el presidente de mexico en 2019
-Respuesta: En 2019, el presidente de México es Andrés Manuel López Obrador.
+Respuesta: En 2019, el presidente de México fue Andrés Manuel López Obrador.
 ```
 
 Guanaco
@@ -48,6 +48,20 @@ Respuesta: El rey de Francia en 2019 es Felipe VI.
 
 Guanaco
 ```
+Instrucción: traduce la frase 'hola mundo' al inglés
+Respuesta: Hello world!
+```
+
+Guanaco
+```
 Instrucción: escribe un programa de Python que imprima los primeros 10 números de Fibonacci
-Respuesta: def fibonacci(n): si n == 0: regresar 0 elif n == 1: regresar 1 else: regresar fibonacci(n-1) + fibonacci(n-2)
+Respuesta: def fibonacci(n):
+    if n == 0:
+        return 0
+    elif n == 1:
+        return 1
+    else:
+        return fibonacci(n-1) + fibonacci(n-2)
+
+print(fibonacci(10))
 ```
